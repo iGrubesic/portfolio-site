@@ -10,7 +10,7 @@ var gulp = require('gulp'),
     };
 
 // Sass Task
-gulp.task('sass', function() {
+gulp.task('sass', () => {
     return gulp.src(config.sass)
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest(config.sassDest))
