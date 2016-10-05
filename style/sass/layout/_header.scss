@@ -1,0 +1,18 @@
+.main-nav {
+    nav {
+        height: 3rem;
+         background-color: #212121;     
+        ul {
+            list-style-type: none;
+            li {
+                display: inline-block;
+                float: left;
+                line-height: 3rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                margin-right: 0.5rem;
+                cursor: pointer;
+            }
+        }
+    }
+}

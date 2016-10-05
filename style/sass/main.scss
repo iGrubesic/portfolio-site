@@ -1,2 +1,13 @@
-/* pages*/
-@import "pages/home";
+/* variable */
+@import "./variables";
+
+@import "./base";
+
+@import "./layout/header";
+
+@import "./layout/slider";
+
+@import "./layout/container";
+
+/* pages */
+@import "./pages/home";
